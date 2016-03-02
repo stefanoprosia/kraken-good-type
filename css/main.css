@@ -1,0 +1,54 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font: normal 100%;
+}
+
+article {
+  text-align: left;
+  max-width: 47em;
+}
+
+header {
+  background-color: #259f95;
+  text-align: left;
+  padding: 1.5em;
+  margin: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+.chapter-num {
+  display: block;
+  color: #fff;
+  font-size: 0.5em;
+  font-style: italic;
+}
+
+h1 {
+  display: block;
+  color: #fff;
+}
+
+.colon {
+  display: none;
+}
+
+footer {
+  background-color: #259f95;
+  text-align: left;
+  padding: 1.5em;
+  margin: 0;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+  font-size: 0.75em;
+}
+
+p::first-line {
+  font-style: italic;
+  color: #1e7c74;
+}
