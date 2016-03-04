@@ -21,6 +21,19 @@ header {
   font-family: "Libre Baskerville", serif;
 }
 
+img {
+  border-style: solid;
+  border-color: #259f95;
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+}
+
+body {
+  color: #222;
+  margin: 0;
+}
+
 .chapter-num {
   display: block;
   color: #fff;
@@ -49,7 +62,7 @@ footer {
   font-size: 0.75em;
 }
 
-p::first-line {
+p:nth-child(2)::first-line {
   font-style: italic;
   color: #1e7c74;
 }
